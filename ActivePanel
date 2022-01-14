@@ -40,7 +40,7 @@ public class activepanel : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Return))
             {
-                if (inputTextNewToDo.text == ""|| inputTextNewToDo.text.Length <2)  // 4. Создать можно только если Todo не пустое и длина больше 1 символа
+                if (inputTextNewToDo.text == ""|| inputTextNewToDo.text.Length <2)
                 {
                     Debug.Log("Данные введены не корректно");
                 }
